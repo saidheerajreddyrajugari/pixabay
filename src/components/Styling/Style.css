@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Styling for the entire nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the logo section */
+  .logo h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hover effect for the logo */
+  #logo:hover {
+    color: #221fe0;
+    cursor: pointer; 
+  }
+  /* Styling for the navigation items */
+  #items ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for each list item in the navigation */
+  #items ul li {
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  /* Hover effect for the navigation items */
+  #items ul li:hover {
+    cursor: pointer;
+    color: #f5ba13;
+  }
+  
+  /* Styling for the login button */
+  #loginbtn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #f5ba13;
+    color: #333;
+    font-size: 1rem;
+   
+  }  
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  #searchdiv{
+   width: 100%;
+   height :400px;
+   background-image: url("https://cdn.pixabay.com/photo/2024/03/21/14/36/forest-8647829_1280.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+
+  }
+  .input{
+    width: 600px;
+    height: 40px;
+    padding-left: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+
+  }
+#fetchimg{
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 50px;
+    
+    
+
+
+}
+#contain{
+  height: 250px;
+  width: 400px;
+  border: solid 2px;
+display: flex;
+justify-content: center;
+margin-left: 35% ;
+margin-top: 80px;
+background-color: aqua;
+border-radius: 15px;
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+}
+.form-group1{
+  padding-top:20px;
+}
+#contain1{
+  height: auto;
+  width: 400px;
+  border: solid 2px;
+display: flex;
+justify-content: center;
+margin-left: 35% ;
+margin-top: 80px;
+background-color: aqua;
+border-radius: 15px;
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+}
+.form-group2{
+  padding-top:20px;
+}
